@@ -18,6 +18,7 @@ for cd[0] in range(1,7):
                 for cd[4] in range(1,7):
                     for cd[5] in range(1,7):
                         #6**6 times. 46656 times.
+                        #36 positions in the dictionary
                         loop_sum = sum(cd)
                         add_to_dict(cd_sum_dict,loop_sum)
 

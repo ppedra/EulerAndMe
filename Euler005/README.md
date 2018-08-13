@@ -3,5 +3,8 @@
 
 What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 
-## comemnts on the solution:
-it took a long time! 240.05s (4min) to be precise! i should revisit this problem later
+## comments on the solution:
+###### first try:
+It took a long time! 240.05s (4min) to be precise! i should revisit this problem later
+###### second try:
+Checking first the prime numbers and then the remaining makes the program alot faster! It took 78s this way!

@@ -4,10 +4,10 @@ Euler 005
 import timeit
 
 def is_dividable_by_range(lim):
-    """check first the primes and then the remaining"""
+    """check first the primes and then the other numbers"""
 
     #print("check which number is evenly divisible by",list(range(1,lim+1)))
-    primes = [2,3,5,7,11,13]
+    primes = [2,3,5,7,11,13,17,19]
 
     list_to_check = list(range(1,lim+1))
     for num in list_to_check:
@@ -17,7 +17,6 @@ def is_dividable_by_range(lim):
     num = 1
     while True:
         is_dividable = True
-        #print("num:",num)
 
         for i in primes:
             if num%i!=0:

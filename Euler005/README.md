@@ -8,3 +8,5 @@ What is the smallest positive number that is evenly divisible by all of the numb
 It took a long time! 240.05s (4min) to be precise! i should revisit this problem later
 ###### second try:
 Checking first the prime numbers and then the remaining makes the program alot faster! It took 78s this way!
+###### third try:
+TODO: use math, not brute force. use Least common multiple to find...
